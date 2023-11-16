@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Nicolas Vicaro">
+	<meta name="description" content="Pagina de Autos">
+	<meta name="keywords" content="HTML, CSS, JS">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--TITULO-->
+	<title>Autos Clasicos</title>
+	<!--FAVICON-->
+	<link rel="icon" type="image/x-icon" href="imagenes/car-front-fill.svg">
+
+	<!--CSS-->
+	<link href="estilo.css" rel="stylesheet">
+	<!--Bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<!--Fuentes-->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+
+	<header class="banner" id="Inicio">
+		<div class="container-img-banner">
+			<div class="imagen">
+				<img src="imagenes/Chevrolet 400.png" alt="Chrevolet 400">
+				<span class="nombre">Chrevolet 400</span>
+			</div>
+
+			<div class="imagen">
+				<img src="imagenes/Chevrolet Chevy.png" alt="Chevrolet Chevy">
+				<span class="nombre">Chevrolet Chevy</span>
+			</div>
+
+			<div class="imagen">
+				<img class="" src="imagenes/FALCON.png" alt="Ford Falcon">
+				<span class="nombre">Ford Falcon</span>
+			</div>
+
+			<div class="imagen">
+				<img class="" src="imagenes/Torino.png" alt="IKA Torino">
+				<span class="nombre">IKA Torino</span>
+			</div>
+
+			<div class="imagen">
+				<img class="" src="imagenes/Renault 12.png" alt="Renault 12">
+				<span class="nombre">Renault 12</span>
+			</div>
+		</div>
+	</header>
+	<!--NAVBAR-->
+	<header class="nav" id="arriba">
+		<nav class="menu">
+			<ul class="nav-bar" id="navbar">
+				<img id="close-menu" src="imagenes/navBarIcons/icon-menu-close.svg" alt="Boton-cerrar-menu mobile">
+				<li class="closing">
+					<a href="index.html">Inicio</a>
+				</li>
+				<li>
+					<a href="#Inicio">Modelos</a>
+				</li>
+				<li>
+					<a href="#Contacto">Contacto</a>
+				</li>
+			</ul>
+			<img id="open-menu" src="imagenes/navBarIcons/icon-menu.svg" alt="Boton-abrir-menu mobile">
+	</header>
+	<main class="pagina_2">
+
+		<section class="carrusel-modelos">
+			<h3 class="titulo-pagina2">En esta sección podras ver los distintos modelos y/o vesiones de estos autos iconicos.
+			</h3>
+
+			<!--Carrusel-->
+
+			<div id="carousel-chevrolet-400" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="container">
+							<img class="model-img" src="imagenes/Chevrolet 400 standard.jpg" alt="Chevrolet 400 Standard">
+							<div class="carousel-info">
+								<p class="info">Chevrolet 400 Standard</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="container">
+							<img class="model-img" src="imagenes/chevrolet 400  special.jpg" alt="Chevrolet 400 Special">
+							<div class="carousel-info">
+								<p class="info">Chevrolet 400 Special</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="container">
+							<img class="model-img" src="imagenes/chevrolet 400  super deluxe.jpg" alt="Chevrolet 400 Super Deluxe">
+							<div class="carousel-info">
+								<p class="info"> Chevrolet 400 Super Deluxe</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="container">
+							<img class="model-img" src="imagenes/chevrolet 400  super sport.jpg" alt="Chevrolet 400 Super Sport">
+							<div class="carousel-info">
+								<p class="info"> Chevrolet 400 Super Sport</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="container">
+							<img class="model-img" src="imagenes/Chevrolet 400 rally sport.jpg" alt="Chevrolet 400 Rally Sport">
+							<div class="carousel-info">
+								<p class="info">Chevrolet 400 Rally Sport</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carousel-chevrolet-400"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carousel-chevrolet-400"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+
+			<div id="carousel-chevrolet-chevy" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="carousel-item _2 active">
+						<div class="container">
+							<img class="model-img" src="imagenes/Chevrolet Chevy Standard.jpg" alt="Chevrolet Chevy Standard">
+							<div class="carousel-info">
+								<p class="info">Chevrolet Chevy Standard</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _2">
+						<div class="container">
+							<img class="model-img" src="imagenes/Chevrolet Chevy Super Sport.jpg" alt="Chevrolet Chevy Super Sport">
+							<div class="carousel-info">
+								<p class="info">Chevrolet Chevy Super Sport</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _2">
+						<div class="container">
+							<img class="model-img" src="imagenes/Chevrolet Chevy Serie 2.jpg" alt="Chevrolet Chevy Serie 2">
+							<div class="carousel-info">
+								<p class="info">Chevrolet Chevy Serie 2</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _2">
+						<div class="container">
+							<img class="model-img" src="imagenes/Chevrolet Chevy Malibu.jpg" alt="Chevrolet 400 Chevy Malibu">
+							<div class="carousel-info">
+								<p class="info">Chevrolet Chevy Malibu</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carousel-chevrolet-chevy"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carousel-chevrolet-chevy"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+
+			<div id="carousel-ford-falcon" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="carousel-item _3 active">
+						<div class="container">
+							<img class="model-img" src="imagenes/ford-falcon-std.jpg" alt="Ford Falcon Standard">
+							<div class="carousel-info">
+								<p class="info">Ford Falcon Standard</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _3">
+						<div class="container">
+							<img class="model-img" src="imagenes/ford-falcon-deluxe.JPG" alt="Ford Falcon Deluxe">
+							<div class="carousel-info">
+								<p class="info">Ford Falcon Deluxe</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _3">
+						<div class="container">
+							<img class="model-img" src="imagenes/ford-falcon-rural.jpg" alt="Ford Falcon Rural">
+							<div class="carousel-info">
+								<p class="info">Ford Falcon Rural</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _3">
+						<div class="container">
+							<img class="model-img" src="imagenes/ford-falcon-sprint.jpg" alt="Ford Falcon Sprint">
+							<div class="carousel-info">
+								<p class="info">Ford Falcon Sprint</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _3">
+						<div class="container">
+							<img class="model-img" src="imagenes/Ford Falcon Ranchero.jpg" alt="Ford Falcon Ranchero">
+							<div class="carousel-info">
+								<p class="info">Ford Falcon Ranchero</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _3">
+						<div class="container">
+							<img class="model-img" src="imagenes/Ford-Falcon-Futura.jpg" alt="Ford Falcon Futura">
+							<div class="carousel-info">
+								<p class="info">Ford Falcon Futura</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _3">
+						<div class="container">
+							<img class="model-img" src="imagenes/ford-falcon-ghia.jpg" alt="Ford Falcon Ghia">
+							<div class="carousel-info">
+								<p class="info">Ford Falcon Ghia</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carousel-ford-falcon" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carousel-ford-falcon" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+
+			<div id="carousel-ika-renault-torino" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="carousel-item _4 active">
+						<div class="container">
+							<img class="model-img" src="imagenes/Torino 300.jpg" alt="IKA Renault Torino 300">
+							<div class="carousel-info">
+								<p class="info">IKA Renault Torino 300</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _4">
+						<div class="container">
+							<img class="model-img" src="imagenes/Torino 300s.jpg" alt="IKA Renault Torino 300s">
+							<div class="carousel-info">
+								<p class="info">IKA Renault Torino 300s</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _4">
+						<div class="container">
+							<img class="model-img" src="imagenes/Torino 380.jpg" alt="IKA Renault Torino 380">
+							<div class="carousel-info">
+								<p class="info">IKA Renault Torino 380</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _4">
+						<div class="container">
+							<img class="model-img" src="imagenes/Torino 380W.JPG" alt="IKA Renault Torino 380W">
+							<div class="carousel-info">
+								<p class="info">IKA Renault Torino 380W</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _4">
+						<div class="container">
+							<img class="model-img" src="imagenes/torino ts.jpg" alt="IKA Renault Torino ts">
+							<div class="carousel-info">
+								<p class="info">IKA Renault Torino TS</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _4">
+						<div class="container">
+							<img class="model-img" src="imagenes/Torino gs.jpg" alt="IKA Renault Torino gs">
+							<div class="carousel-info">
+								<p class="info">IKA Renault Torino GS</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _4">
+						<div class="container">
+							<img class="model-img" src="imagenes/Torino tsx.jpg" alt="IKA Renault Torino TSX">
+							<div class="carousel-info">
+								<p class="info">IKA Renault Torino TSX</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _4">
+						<div class="container">
+							<img class="model-img" src="imagenes/Torino gr.jpg" alt="IKA Renault Torino gr">
+							<div class="carousel-info">
+								<p class="info">IKA Renault Torino GR</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _4">
+						<div class="container">
+							<img class="model-img" src="imagenes/torino zx.jpg" alt="IKA Renault Torino zx">
+							<div class="carousel-info">
+								<p class="info">IKA Renault Torino ZX</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _4">
+						<div class="container">
+							<img class="model-img" src="imagenes/Torino Lutteral.jpg" alt="Torino Lutteral">
+							<div class="carousel-info">
+								<p class="info">Torino Lutteral</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _4">
+						<div class="container">
+							<img class="model-img" src="imagenes/Lutteral Safari.jpg" alt="Torino Lutteral Safari">
+							<div class="carousel-info">
+								<p class="info">Torino Lutteral Safari</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item _4">
+						<div class="container">
+							<img class="model-img" src="imagenes/Torino Lutteral Comahue.jpg" alt="Torino Lutteral Comahue">
+							<div class="carousel-info">
+								<p class="info">Torino Lutteral Comahue</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carousel-ika-renault-torino"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carousel-ika-renault-torino"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+
+			<div id="carousel-renault-12" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="container">
+							<img class="model-img" src="imagenes/Renault 12 tl.jpg" alt="Renault 12 tl">
+							<div class="carousel-info">
+								<p class="info">Renault 12 TL</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="container">
+							<img class="model-img" src="imagenes/Renault 12 ts.jpg" alt="Renault 12 ts ">
+							<div class="carousel-info">
+								<p class="info">Renault 12 TS</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="container">
+							<img class="model-img" src="imagenes/Renault 12 break.jpg" alt="Renault 12 break ts o Rural ">
+							<div class="carousel-info">
+								<p class="info">Renault 12 Break TS o Rural</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="container">
+							<img class="model-img" src="imagenes/Renault 12 gts.jpg" alt="Renault 12 gts">
+							<div class="carousel-info">
+								<p class="info">Renault 12 GTS</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carousel-renault-12" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carousel-renault-12" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+			<p class="alerta">¡AVISO! No soy propietario ni tengo derechos de la información e imagenes publicadas. Este sitio fue
+				creado con fines educativos y/o creativos. </p>
+		<section class="seccion-contacto" id="Contacto">
+			<div class="container-contacto">
+				<p>Creemos tu web</p>
+				<p>¡CONTACTAME!</p>
+				<a href="mailto:nicooovicaro@gmail.com">
+					<button type="button" class="btn-contacto">
+								Contacto
+						<i class="bi bi-envelope-paper-fill"></i>
+					</button>
+				</a>
+			</div>
+		</section>
+
+		<div class="volver-arriba">
+			<a href="#arriba">
+				<button class="btn-up" type="button"><i class="bi bi-chevron-double-up"></i></button>
+			</a>
+		</div>
+	</main>
+	<footer>
+		<p class="footer-text">Aprendiendo todos los dias. Hagamos realidad tu sitio web.</p>
+		<div class="contenedor-iconos">
+			<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+				<i class="bi bi-twitter"></i>
+			</a>
+			<a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+				<i class="bi bi-facebook"></i>
+			</a>
+			<a href="https://github.com" target="_blank" rel="noopener noreferrer">
+				<i class="bi bi-github"></i>
+			</a>
+
+			<a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+				<i class="bi bi-instagram"></i>
+			</a>
+		</div>
+		<small class="derechos">Creado por Nicolas Vicaro. TODOS LOS DERECHOS RESERVADOS 2023 &#169; </small>
+	</footer>
+	<script src="main.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- <div class="carousel-info">
+              <p class="info">Chevrolet Chevy Serie 2</p>
+            </div>
+ -->
